@@ -42,7 +42,8 @@ export default function Form() {
   const handleFormPangkat = (e) => {
     e.preventDefault();
     const count = Math.pow(formDataPangkat.angka, formDataPangkat.pangkat);
-    alert(count);
+    alert(
+      `Hasil dari ${formDataPangkat.angka} pangkat ${formDataPangkat.pangkat} adalah ${count}`);
     setFormDataPangkat({
       angka: "",
       pangkat: "",
@@ -52,7 +53,7 @@ export default function Form() {
   const handleFormAkar = (e) => {
     e.preventDefault();
     const count = Math.sqrt(formDataAkar.angka);
-    alert(count);
+    alert(`Akar kuadrat dari ${formDataAkar.angka} adalah ${count}`);
     setFormDataAkar({
       angka: "",
     });
