@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='p-20 mx-auto'>
+      <div className='p-10 mx-auto sm:p-20'>
         {/* HEADER */}
         {/* <Header/> */}
 
